@@ -1,0 +1,125 @@
+input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    padding: 2px 5px;
+ }
+ 
+ #forgot{
+    background-color: white;
+ }
+ #back{
+    background-color: #1b2347;
+    height: 400px;
+    width: 800px;
+    color: #e7f4ff;
+    opacity: 0.9;  
+    text-align: left;
+    margin:auto;
+    margin-left:1em;
+    margin-right:1em;
+    margin-top:15em;
+    margin-bottom:1em;
+    display:inline-block;
+    padding: 30px 30px 30px 30px;
+    
+          
+ }
+ .changing{
+    position: absolute;    
+    height: 450px;
+    width: 400px;
+    margin-left:380px;    
+    margin-top:185px;    
+    padding: 70px 20px;
+    background-color: white;
+    color: #3e495e;
+   
+ }
+ input[type="email"], input[type="password"], input[type="text"]
+ {
+    width: 200px;
+    margin: 0;
+    padding: 5px 10px;
+    background: 0;
+    border: 0;
+    border-bottom: 1px solid #FFFFFF;
+    outline: 0;    
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: black;
+    outline: 0;
+    font-family: FontAwesome;
+ }
+ footer {  
+    
+    position: absolute;
+    bottom: 10px;
+    margin: 0 auto;
+    color: black;    
+    padding: 10px;
+    left: 45%;
+  }
+ .btn-primary{
+    background-color:#f89a35;
+  }
+ .btn-primary:hover{
+    background-color: #f8bf35;
+ }
+  
+  #mainButton1, #mainButton2{
+    background-color: #1b2347;
+  }
+  #mainButton1:hover, #mainButton2:hover{
+      background-color: #49abfe;
+  }
+  body{
+      background-image: url("/beeeater.png");
+      
+  }
+  #loginBack{
+    float: right;
+    position: relative;
+    width: 300px;
+  }
+  #signUpBack{
+    float: left;
+    position: relative;
+    width: 300px;
+  }
+  #main2{
+      display: none;
+      height: 100%;
+  }
+  #main1{
+    height: 100%;
+  }
+ 
+.error-template {
+  padding: 40px 15px;text-align: center;
+}
+.error-actions {
+  margin-top:15px;margin-bottom:15px;
+}
+.error-actions .btn {
+   margin-right:10px; 
+}
+.red{
+  color:red;
+}
+.logout{
+  color: red;
+}
+#signText{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#loginText{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+h2{
+  padding-bottom: 20px;
+}
